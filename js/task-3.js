@@ -4,11 +4,11 @@ const profile = {
 
 
     changeUsername(newName) {
-        profile.username = newName;
+        this.username = newName;
     },
 
     updatePlayTime(hours) {
-        profile.playTime = hours;
+        this.playTime += hours;
     },
 
     getInfo() {
